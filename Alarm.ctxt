@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Alarm
+comment0.text=\r\n\ An\ alarm\ for\ the\ clock,\ if\ it\ is\ On\ or\ Off,\ displayed\ in\ 12\ hour\ clock\r\n\r\n\ @author\ (Kamaluddin\ Shakiri)\r\n\ @version\ 2019.09.20\r\n
+comment1.params=
+comment1.target=Alarm()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Alarm\r\n
+comment2.params=hour\ minute\ amPM\ alarmSet
+comment2.target=Alarm(int,\ int,\ java.lang.String,\ boolean)
+comment2.text=\r\n\ Setting\ the\ alarm\ time.\ \ If\ invalid\ it\ is\ changed\ to\ a\ valid\ value\:\ hours\ to\ 12,\ minutes\ to\ 0,\r\n\ amPm\ to\ "a.m.".\ \r\n\ @param\ hours\ The\ alarm\ time\ hours\ (1-12)\r\n\ @param\ minutes\ The\ alarm\ time\ minutes\ (0-59)\r\n\ @param\ amPm\ "a.m."\ or\ "p.m."\r\n
+comment3.params=hour\ minute\ amPM
+comment3.target=void\ setTime(int,\ int,\ java.lang.String)
+comment4.params=
+comment4.target=void\ turnOn()
+comment4.text=\r\n\ Turns\ the\ alarm\ on.\ \ (does\ nothing\ if\ alarm\ is\ on\ from\ before.)\r\n
+comment5.params=
+comment5.target=void\ turnOff()
+comment5.text=\r\n\ Turns\ the\ alarm\ off.\ \ (Does\ nothing\ if\ alarm\ is\ off\ from\ before.)\r\n
+comment6.params=
+comment6.target=java.lang.String\ getTime()
+comment6.text=\r\n\ Returns\ a\ String\ representation\ of\ the\ time,\ for\ example\:\ "12\:01a.m."\r\n
+comment7.params=
+comment7.target=boolean\ isSet()
+comment7.text=\r\n\ Returns\ true\ if\ the\ alarm\ is\ set,\ otherwise\ return\ false.\r\n
+numComments=8
